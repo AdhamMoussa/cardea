@@ -1,0 +1,39 @@
+.main-section {
+  height: 100vh;
+  max-height: 1000px;
+  background: url("../../assets/images/main/main-section-bg.jpg") top center no-repeat;
+  background-size: cover;
+  &__inner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+  }
+  &__image {
+    height: calc((100vh - 100px) * .6);
+    max-height: 600px;
+    & img {
+      display: block;
+      margin: auto;
+      max-height: calc((100vh - 100px) * .6);
+      width: auto;
+    }
+  }
+  &__text {
+    height: calc((100vh - 100px) * .4);
+    max-height: 400px;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    @include smallUp {
+      font-size: 2rem
+    }
+    @include mediumUp {
+      font-size: 2.3rem;
+    }
+    @include largeUp {
+      font-size: 2.8rem;
+    }
+  }
+}
