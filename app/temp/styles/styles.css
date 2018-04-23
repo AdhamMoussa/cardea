@@ -6323,6 +6323,12 @@ body {
 img {
   max-width: 100%; }
 
+br {
+  display: none; }
+  @media only screen and (min-width: 992px) {
+    br {
+      display: block; } }
+
 .loading-page {
   display: none;
   position: fixed;
@@ -6346,7 +6352,7 @@ img {
   right: 0;
   height: 60px;
   background-color: #000;
-  z-index: 1000; }
+  z-index: 10000; }
   .header__inner {
     height: 100%;
     padding: 0 10px;
@@ -6457,3 +6463,65 @@ img {
     @media only screen and (min-width: 992px) {
       .main-section__text {
         font-size: 2.8rem; } }
+
+.site-section__side {
+  padding: 2rem; }
+  @media only screen and (min-width: 768px) {
+    .site-section__side {
+      padding: 7rem 2rem; } }
+  .site-section__side img {
+    width: 50px; }
+  .site-section__side h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 1rem 0 4rem;
+    line-height: 0.8; }
+    @media only screen and (min-width: 768px) {
+      .site-section__side h2 {
+        font-size: 5rem; } }
+  .site-section__side p {
+    font-size: 1.3rem;
+    width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .site-section__side p {
+        width: 50%; } }
+
+.site-section__main {
+  padding: 2rem; }
+  @media only screen and (min-width: 768px) {
+    .site-section__main {
+      padding: 7rem 2rem; } }
+
+.site-section__main-title {
+  width: 100%;
+  font-weight: 200;
+  margin-bottom: 3.5rem;
+  font-size: 1.5rem; }
+  @media only screen and (min-width: 768px) {
+    .site-section__main-title {
+      width: 70%;
+      margin-bottom: 6rem;
+      font-size: 2rem; } }
+
+.services__side {
+  background-color: #d41e5b; }
+
+.services__main {
+  background-color: #ff1e5c; }
+
+.services__item {
+  margin-bottom: 2rem; }
+  @media only screen and (min-width: 768px) {
+    .services__item {
+      margin-bottom: 6rem; } }
+
+.services__img {
+  width: 30%; }
+  @media only screen and (min-width: 768px) {
+    .services__img {
+      width: 100%; } }
+  .services__img h4 {
+    font-size: 1.25rem; }
+  .services__img p {
+    font-size: 0.9rem; }

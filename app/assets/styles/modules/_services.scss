@@ -1,0 +1,26 @@
+.services {
+  &__side {
+    background-color: $secondPink;
+  }
+  &__main {
+    background-color: $mainPink;
+  }
+  &__item {
+    margin-bottom: 2rem;
+    @include mediumUp {
+      margin-bottom: 6rem;
+    }
+  }
+  &__img {
+    width: 30%;
+    @include mediumUp {
+      width: 100%;
+    }
+    h4 {
+      font-size: 1.25rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}

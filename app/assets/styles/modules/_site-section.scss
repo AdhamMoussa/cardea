@@ -1,0 +1,45 @@
+.site-section {
+  &__side {
+    padding: 2rem;
+    @include mediumUp {
+      padding: 7rem 2rem;
+    }
+    img {
+      width: 50px;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      margin: 1rem 0 4rem;
+      line-height: 0.8;
+      @include mediumUp {
+        font-size: 5rem;
+      }
+    }
+    p {
+      font-size: 1.3rem;
+      width: 100%;
+      @include mediumUp {
+        width: 50%;
+      }
+    }
+  }
+  &__main {
+    padding: 2rem;
+    @include mediumUp {
+      padding: 7rem 2rem;
+    }
+  }
+  &__main-title {
+    width: 100%;
+    font-weight: 200;
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
+    @include mediumUp {
+      width: 70%;
+      margin-bottom: 6rem;
+      font-size: 2rem;
+    }
+  }
+}
