@@ -6378,7 +6378,7 @@ br {
       right: 0; }
     @media only screen and (min-width: 992px) {
       .header__nav {
-        height: unset;
+        height: 60px;
         width: unset;
         position: static; } }
   .header__links-list {
@@ -6500,7 +6500,7 @@ br {
   font-size: 1.5rem; }
   @media only screen and (min-width: 768px) {
     .site-section__main-title {
-      width: 70%;
+      width: 85%;
       margin-bottom: 6rem;
       font-size: 2rem; } }
 
@@ -6525,3 +6525,91 @@ br {
     font-size: 1.25rem; }
   .services__img p {
     font-size: 0.9rem; }
+
+.portfolio__side {
+  background-color: #505cc1; }
+
+.portfolio__main {
+  background-color: #5067c1; }
+
+.portfolio__project {
+  position: relative; }
+  .portfolio__project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer; }
+  .portfolio__project:hover .portfolio__project-info {
+    opacity: 1; }
+
+.portfolio__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #000;
+  font-size: 6rem;
+  font-weight: 200;
+  line-height: 1;
+  cursor: pointer; }
+
+.inspire {
+  background-image: url("../../assets/images/inspire/inspire-bg.jpg");
+  padding: 3rem 0 6rem; }
+
+.carousel {
+  padding-bottom: 5rem; }
+  .carousel ol.carousel-indicators {
+    align-items: center; }
+    .carousel ol.carousel-indicators li {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      cursor: pointer; }
+      .carousel ol.carousel-indicators li:hover {
+        background: #fff; }
+    .carousel ol.carousel-indicators li.active {
+      width: 25px;
+      height: 25px;
+      background-color: transparent;
+      border: 4px solid #fff; }
+  .carousel .carousel-item img {
+    cursor: pointer; }
+
+.about__main {
+  background-color: #ffc43b; }
+
+.about__video {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 4rem; }
+  .about__video:hover .about__vid-bg {
+    opacity: 1; }
+
+.about__vid-bg {
+  opacity: 0.6;
+  transition: 0.2s; }
+
+.about__play-icon {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .about__play-icon img {
+    width: 15%; }
+
+.about__side {
+  background-color: #ffd23e; }

@@ -34,7 +34,7 @@
       right: 0;
     }
     @include largeUp {
-      height: unset;
+      height: 60px;
       width: unset;
       position: static;
     }
