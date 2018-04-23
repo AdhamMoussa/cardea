@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 75%;
+    @include smallUp {
+        font-size: 87.5%;
+    }
+    @include mediumUp {
+        font-size: 100%;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}

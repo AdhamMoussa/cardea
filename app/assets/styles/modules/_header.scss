@@ -1,0 +1,33 @@
+.header {
+  &__nav {
+    background-color: $mainBlack;
+  }
+  &__menu-icon {
+    background-color: $mainWhite;
+    padding: .2rem .5rem;
+    font-size: 1rem;
+  }
+  &__nav-link {
+    text-align: center;
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: $mainPink;
+    }
+    &.active-link {
+      color: $mainPink;
+    }
+    @include smallUp {
+      margin: 15px 0 7px;
+    }
+    @include mediumUp {
+      margin: 7px 0;
+    }
+    @include largeUp {
+      font-size: .875rem;
+      margin: 0 16px;
+    }
+  }
+}

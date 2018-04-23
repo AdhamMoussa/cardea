@@ -1,0 +1,19 @@
+{
+  "name": "cardea",
+  "version": "1.0.0",
+  "description": "designed by cocobasic",
+  "main": "index.js",
+  "author": "Adham Moussa",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
+}
