@@ -1,6 +1,9 @@
   .inspire {
     background-image: url("../../assets/images/inspire/inspire-bg.jpg");
-    padding: 3rem 0 6rem;
+    padding: 3rem 0;
+    @include largeUp {
+      padding: 3rem 0 6rem;
+    }
   }
 
   .carousel {

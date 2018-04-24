@@ -1,7 +1,10 @@
 .stats {
     background-color: #111;
-    padding: 7rem;
+    padding: 3rem;
     text-align: center;
+    @include largeUp {
+        padding: 7rem;
+    }
     .stat-box {
         margin-top: 3rem;
         h3 {
