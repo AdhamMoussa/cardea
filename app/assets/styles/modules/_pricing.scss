@@ -1,0 +1,83 @@
+.pricing {
+  background-color: $lighterBlack;
+  padding: 2rem 1rem;
+  @include largeUp {
+    padding: 7rem 2rem;
+  }
+  p {
+    font-size: 0.9rem;
+    line-height: 2;
+    padding: 2rem 0 0;
+    @include largeUp {
+      padding: 0 1rem;
+    }
+  }
+  &__cards {
+    margin-top: 5rem;
+    .card {
+      background-color: $mainBlack;
+      text-align: center;
+      margin-bottom: 2rem;
+      @include largeUp {
+        margin-bottom: 0;
+      }
+      .card-header {
+        padding: 2rem 0;
+        font-size: 1.4rem;
+      }
+      .card-body {
+        padding: 0;
+        .card-title {
+          font-size: 3.7rem;
+          font-weight: 400;
+          padding-top: 2rem;
+        }
+        .card-subtitle {
+          color: $mainGray;
+          font-size: 0.7rem;
+          font-weight: 200;
+        }
+        .list-group {
+          color: $mainGray;
+          margin-top: 2rem;
+          .list-group-item {
+            background-color: $mainBlack;
+            border: 0;
+            padding: 1.3rem 0;
+            font-size: 0.8rem;
+            font-weight: 200;
+          }
+        }
+        .card-btn {
+          margin: 2rem 0;
+          a {
+            color: $mainWhite;
+            padding: 1rem 3rem;
+            border: 2px solid;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.4s;
+            &:hover {
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+    }
+    .basic {
+      .card-header {
+        background-color: #de8234;
+      }
+    }
+    .advanced {
+      .card-header {
+        background-color: #505CC1;
+      }
+    }
+    .expert {
+      .card-header {
+        background-color: #37bd6c;
+      }
+    }
+  }
+}

@@ -30,3 +30,25 @@
         background-color: $lighterYellow;
     }
 }
+
+.vid-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $lighterBlack;
+    z-index: 10000;
+    background-color: #333333ef;
+    opacity: 0;
+    iframe {
+        width: 80%;
+        height: 60%;
+    }
+    .close-vid {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        cursor: pointer;
+    }
+}

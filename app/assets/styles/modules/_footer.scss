@@ -1,0 +1,64 @@
+.stats {
+    background-color: #111;
+    padding: 7rem;
+    text-align: center;
+    .stat-box {
+        margin-top: 3rem;
+        h3 {
+            display: inline-block;
+            margin: auto;
+            font-size: 4rem;
+            font-weight: 700;
+            border-top: 10px solid;
+        }
+        p {
+            font-size: 1.4rem;
+            color: #cccccc77;
+        }
+    }
+}
+
+.footer {
+    background-color: $mainBlack;
+    padding: 7rem 2rem;
+    text-align: center;
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.4s;
+        &:hover {
+            color: $mainPink;
+            text-decoration: none;
+        }
+    }
+    &__mail {
+        margin-bottom: 2.5rem;
+        a {
+            font-size: 1.3rem;
+            font-weight: bold;
+            @include mediumUp {
+                font-size: 2.8rem;
+            }
+        }
+    }
+    &__phone {
+        margin-bottom: 5rem;
+        a {
+            font-size: 1.5rem;
+        }
+    }
+    &__address {
+        margin-bottom: 2.5rem;
+        p {
+            font-size: 1.1rem;
+            margin: 0;
+            color: #cccccc77;
+        }
+    }
+    &__social-links {
+        margin-bottom: 2.5rem;
+        i {
+            margin-right: 1rem;
+        }
+    }
+}

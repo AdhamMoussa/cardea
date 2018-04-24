@@ -1,6 +1,6 @@
 .site-section {
-  &__side {
-    padding: 2rem;
+  &__side-inner {
+    padding: 2rem 1rem;
     @include mediumUp {
       padding: 7rem 2rem;
     }
@@ -26,7 +26,7 @@
     }
   }
   &__main {
-    padding: 2rem;
+    padding: 2rem 1rem;
     @include mediumUp {
       padding: 7rem 2rem;
     }
