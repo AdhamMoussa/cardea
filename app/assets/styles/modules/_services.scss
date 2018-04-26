@@ -7,6 +7,7 @@
   }
   &__item {
     margin-bottom: 2rem;
+    transition: .8s;
     @include mediumUp {
       margin-bottom: 6rem;
     }
