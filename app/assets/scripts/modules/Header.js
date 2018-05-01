@@ -13,7 +13,7 @@ class Header {
     headerLinksSync() {
         this.siteSections.each(function () {
             if ($(this).offset().top - 300 < $(window).scrollTop()) {
-                let $targetLinkID = $(this).attr('da-section');
+                let $targetLinkID = $(this).attr('data-section');
                 $($targetLinkID).addClass('active-link').siblings().removeClass('active-link');
             }
         });
